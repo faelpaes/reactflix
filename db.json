@@ -12,5 +12,21 @@
       "descricao": "Outra Categoria Show",
       "cor": "#cbd1ff"
     }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Teste",
+      "url": "Teste",
+      "categoriaId": 1,
+      "description":"Teste"
+    },
+    {
+      "id": 2,
+      "titulo": "Teste 2",
+      "url": "Teste 2",
+      "categoriaId": 2,
+      "description":"Teste 2"
+    }
   ]
 }

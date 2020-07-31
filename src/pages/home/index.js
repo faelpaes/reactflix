@@ -14,6 +14,7 @@ function Home() {
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
         console.log(categoriasComVideos[0].videos[0]);
+        console.log(categoriasComVideos);
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
